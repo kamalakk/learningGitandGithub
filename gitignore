@@ -1,4 +1,4 @@
-#test
+#ignore all .txt , .csv files
 
 *.txt
 *.csv

@@ -1,0 +1,74 @@
+
+https://youtu.be/tRZGeaHPoaw?si=x_A-G3QTZnRO4R25
+
+
+
+1) git config --global user.name 'kamala'
+2) git config --global user.email 'kamala@gmail.com'
+3) git config --global init.default branch main
+4) git config -h
+5) git help config
+6) git init
+7) git status
+8) git add index.htm [ to track a file/to move to staging] 
+9) git rm --cached index.htm [ untrack the file/ move back to working directory]
+10) touch .gitignore [ to create a gitignore file]
+11) git add --all [ track all files]
+    git add -A
+    git add .
+
+12) git commit -m "commit messages"
+13) git diff 
+14) git restore --staged index.htm
+15) git commit -a -m " skipping staging...directly committing"
+16) git restore "filename.htm"
+17) git mv "oldfilename.htm"  "newfilename.htm" [ this will change file name]
+18) git commit -m "message...."
+19) git log
+20) git log --oneline [ will give all commit message/code in oneline/summary]
+21) git commit -m "change message" --amend
+22) git log -p
+23) press Q to exit
+24) git rebase -i --root
+25) press : and x to go back to main terminal view
+26) git branch branchname [creat new branch]
+27) git branch [list the branch names]
+28) git switch branchname [ switch to branch branchname]
+29) git switch main
+30) git merge -m "merge branch file back to main"  <<branchname>>
+31) git branch -d <<branchname>> [ to delete branch]
+32) git switch -c newbranch2 [ creates new branch and switches to it]
+33) git switch main [returns to main branch]
+34) git merge <<branchname>> [ merge branch to main]
+35) git fetch [ fetch data from remote github]
+36) git merch [merge to local which are pulled from github]
+37) git pull [ git fetch + git merge >> one command]
+
+
+https://github.com/kamalakk/Data-Analysis
+git remote -v
+command git remote -v checks and displays the remote servers (like GitHub, GitLab, or Bitbucket) connected to your local Git repository.
+
+
+to check whether git is connected to GitHub
+git ls-remote https://github.com/kamalakk/Data-Analysis
+
+
+…or create a new repository on the command line
+echo "# ReferenceFiles" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kamalakk/ReferenceFiles.git
+git push -u origin main
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/kamalakk/ReferenceFiles.git
+git branch -M main
+git push -u origin main
+
+
+

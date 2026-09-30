@@ -7,3 +7,4 @@ import seaborn as sns
 df = pd.read_csv(r"C:\Users\kamal\AAGitvideos\coaster_db.csv")
 print("test")
 print(df.head())
+

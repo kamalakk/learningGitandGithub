@@ -1,0 +1,22 @@
+Order_ID,Order_Date,Customer,Product,Category,Quantity,Unit_Price,Region,Payment,Discount
+1001,2026-01-05,Anita,Keyboard,Electronics,2,25.00,South,Card,5%
+1002,01/07/2026,Ravi,Mouse,Electronics,3,$15.50, south,Cash,0
+1003,2026/01/08,Meena,Laptop Stand,Accessories,1,35,North,card,10%
+1004,Jan 10 2026,John,Keyboard,Electronics,two,25,South,CARD,5%
+1005,2026-01-12,Anita,Mouse,Electronics,2,15.50,South,,0%
+1006,13-01-2026,Ravi,Laptop Stand,Accessories,1,$35,North,Cash,5%
+1007,2026-01-15,Meena,Keyboard,Electronics,3,25.00,NORTH,Card,10%
+1008,2026-01-16,John,Mouse,Electronics,1,15.5,South,card,0%
+1009,2026-01-18,Anita,Laptop Stand,Accessories,,35,South,Cash,5%
+1010,2026-01-20,Ravi,Keyboard,Electronics,2,25,North,Card,5%
+1011,2026-01-21,Meena,Mouse,Electronics,4,15.50,North,Cash,0%
+1012,2026-01-22,John,Laptop Stand,Accessories,1,35,South,CARD,10%
+1013,2026-01-25,Anita,Keyboard,Electronics,2,$25.00,south,Card,5%
+1014,2026-01-27,Ravi,Mouse,Electronics,3,15.50,NORTH,,0%
+1015,2026-01-29,Meena,Laptop Stand,Accessories,2,35,North,Cash,5%
+1016,2026-01-30,John,Keyboard,Electronics,1,25,South,Card,5%
+1016,2026-01-30,John,Keyboard,Electronics,1,25,South,Card,5%
+1017,2026-02-02,Anita,Mouse,Electronics,2,15.50,South,Card,0%
+1018,2026-02-04,Ravi,Laptop Stand,Accessories,1,$35,North,Cash,5%
+1019,2026-02-06,Meena,Keyboard,Electronics,2,25,NORTH,Card,10%
+1020,2026-02-08,John,Mouse,Electronics,3,15.50,South,Cash,0%
